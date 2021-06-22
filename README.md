@@ -18,3 +18,6 @@ backtotop({
 	css : "box-shadow:0px 0px 20px 0px rgba(0,0,0,.2);",
 });
 ```
+
+See [demo folder](https://github.com/Master-Genius-code/back-to-top.js/tree/main/demo)
+For more brief explanation about how to use
