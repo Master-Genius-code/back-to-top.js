@@ -21,3 +21,6 @@ backtotop({
 
 See [demo folder](https://github.com/Master-Genius-code/back-to-top.js/tree/main/demo)
 For more brief explanation about how to use
+
+# A brief documentation
+A brief documentation is provided [here](https://master-genius-code.github.io/back-to-top.js/doc)
