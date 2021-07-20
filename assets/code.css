@@ -1,0 +1,21 @@
+.code{
+	background: #242424;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    border-radius: 7px;
+    overflow: scroll;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-bottom: 12px;
+    color: #fff;
+}
+.code::-webkit-scrollbar{
+	width: 0px;
+	height: 0px;
+}
+.code::-moz-scrollbar{
+	width: 0px;
+	height: 0px;
+}
