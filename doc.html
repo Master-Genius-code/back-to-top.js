@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Documentation of Back-to-top.js</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/aos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="doc-page">
+<div class="section">
+	<h1>Documentation</h1>
+	<ul>
+		<li><a href="#bg">bg</a></li>
+		<li><a href="#image">image</a></li>
+		<li><a href="#animation">animation</a></li>
+		<li><a href="#round">round</a></li>
+		<li><a href="#wh">width</a></li>
+		<li><a href="#wh">height</a></li>
+		<li><a href="#icon">icon</a></li>
+		<li><a href="#css">css</a></li>
+		<li><a href="#tlfd">right</a></li>
+		<li><a href="#tlfd">bottom</a></li>
+		<li><a href="#tlfd">top</a></li>
+		<li><a href="#tlfd">left</a></li>
+		<li><a href="#icon">icon</a></li>
+		<li><a href="#icon-color">icon_color</a></li>
+		<li><a href="#html">html</a></li>
+		<li><a href="#icon-hover">icon_color_hover</a></li>
+	</ul>
+</div>
+<section class="section-doc section" id="bg" data-aos="zoom-in-right">
+	<h1>Bg</h1>
+	<p>With this property you can assign background to your back to top arrow</p>
+</section>
+<section class="section-doc section" id="image" data-aos="zoom-in-left">
+	<h1>Image</h1>
+	<p>With this property you can assign background to your back to top arrow</p>
+</section>
+<section class="section-doc section" id="icon" data-aos="zoom-in-right">
+	<h1>Icon</h1>
+	<p>Assign icons to you back-to-top arrow <br>
+	['angle_arrow','arrow_up'
+	,'circle_arrow_alt
+	','circle_arrow_fill']</p>
+</section>
+<section class="section-doc section" id="icon-color" data-aos="zoom-in-left">
+	<h1>icon_color</h1>
+	<p>Add color to your icon</p>
+</section>
+<section class="section-doc section" id="tlfd" data-aos="zoom-in-right">
+	<h1>Top / left / bottom / right</h1>
+	<p>These four property allow you to assign arrow any where in page</p>
+</section>
+<section class="section-doc section" id="round" data-aos="zoom-in-left">
+	<h1>round</h1>
+	<p>Use to add border-radius</p>
+</section>
+<section class="section-doc section" id="wh" data-aos="zoom-in-right">
+	<h1>Height / Width</h1>
+	<p>Add height and width</p>
+</section>
+<section class="section-doc section" id="html" data-aos="zoom-in-left">
+	<h1>HTML</h1>
+	<p>Write anything inside you back-to-top arrow</p>
+</section>
+<section class="section-doc section" id="css" data-aos="zoom-in-right">
+	<h1>Css</h1>
+	<p>Add custom css to back-to-top arrow</p>
+</section>
+<section class="section-doc section" id="icon-hover" data-aos="zoom-in-left">
+	<h1>icon_color_hover</h1>
+	<p>Change color of icon on hover</p>
+</section>
+<section class="section-doc section" id="animation" data-aos="zoom-in-right">
+	<h1>Animation</h1>
+	<p>Add animation to back-to-top arrow<br>
+    ['fade','pop','slide-up','slide-left','slide-right','slide-bottom','slide-up-left','slide-up-right','slide-bottom-left','slide-bottom-right']
+	</p>
+</section>
+<script src="assets/aos.js"></script>
+<script type="text/javascript">
+	var bar = document.querySelector('.bar');
+	bar.addEventListener('click',function(){
+		document.querySelector('.navbar').classList.toggle('show');
+		this.classList.toggle('active')
+	})
+</script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
