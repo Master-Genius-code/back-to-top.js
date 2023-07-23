@@ -4,7 +4,7 @@ A simple js plugin to make back to top arrow .
 
 # sample code
 
-```
+```js 
 backtotop({
 	bg : "#fafafa",
 	round : "50%",
